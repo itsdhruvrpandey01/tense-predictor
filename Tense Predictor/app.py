@@ -19,7 +19,7 @@ nltk.download('punkt', quiet=True)
 nltk.download('averaged_perceptron_tagger', quiet=True)
 
 # Load the dataset
-file_path = r'C:\Users\Dhruv\Downloads\collab-ideas-main\collab-ideas-main\topic-readmes\pos_tag_wise_tense_form_rules.csv'  # Update with your file path
+file_path = r''  # Update with your file path
 pos_tag_data = pd.read_csv(file_path)
 
 # Rename the columns for ease of use if necessary
